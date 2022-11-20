@@ -1,0 +1,1 @@
+React Frontend for Coyote. Starting with a simple logged out WebView for consumption.
