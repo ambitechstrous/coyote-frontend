@@ -1,0 +1,32 @@
+{
+  "name": "coyote-frontend",
+  "version": "1.0.0",
+  "description": "React Frontend for Coyote. Starting with a simple logged out WebView for consumption.",
+  "main": "./src/index.tsx",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambitechstrous/coyote-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambitechstrous/coyote-frontend/issues"
+  },
+  "homepage": "https://github.com/ambitechstrous/coyote-frontend#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
